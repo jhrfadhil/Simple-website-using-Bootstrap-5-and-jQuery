@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "playlistcaps";
+  src: url("playlist_caps-webfont.woff2") format("woff2"), url("playlist_caps-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "chewyregular";
+  src: url("chewy-webfont.woff2") format("woff2"), url("chewy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "aliceregular";
+  src: url("Alice-Regular-webfont.eot");
+  src: url("Alice-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("Alice-Regular-webfont.woff2") format("woff2"), url("Alice-Regular-webfont.woff") format("woff"), url("Alice-Regular-webfont.ttf") format("truetype"),
+    url("Alice-Regular-webfont.svg#aliceregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "league_spartanbold";
+  src: url("leaguespartan-bold-webfont.woff2") format("woff2"), url("leaguespartan-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
