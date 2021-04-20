@@ -1,0 +1,133 @@
+/* Fonts */
+body h2 {
+  font-family: chewyregular;
+  font-size: 35px;
+}
+
+body p,
+label,
+button {
+  font-family: aliceregular;
+}
+/* Akhir fonts */
+
+/* Navbar */
+nav {
+  background-color: #505050;
+}
+
+.navbar-brand {
+  font-family: playlistcaps;
+  font-size: 35px;
+}
+
+.navbar-collapse {
+  font-family: chewyregular;
+  font-size: 25px;
+}
+/* Akhir Navbar */
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 2rem;
+  background-image: url(img/bg.png);
+  background-attachment: fixed;
+  font-family: chewyregular;
+  overflow: hidden;
+}
+
+.jumbotron img {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1,
+.jumbotron p {
+  font-family: chewyregular;
+  text-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+/* Akhir Jumbtron */
+
+/* About */
+.about {
+  background-color: #d8d8d8;
+}
+
+.pkiri,
+.pkanan {
+  opacity: 0;
+  -webkit-transform: translate(-50px, 0);
+  -moz-transform: translate(-50px, 0);
+  -ms-transform: translate(-50px, 0);
+  -o-transform: translate(-50px, 0);
+  transform: translate(-50px, 0);
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+
+pkanan {
+  -webkit-transform: translate(50px, 0);
+  -moz-transform: translate(50px, 0);
+  -ms-transform: translate(50px, 0);
+  -o-transform: translate(50px, 0);
+  transform: translate(50px, 0);
+}
+
+.pkiri.pmuncul,
+.pkanan.pmuncul {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+/* Akhir About */
+
+/* Gallery */
+.gallery {
+  background-image: url(img/bg.png);
+  background-attachment: fixed;
+}
+
+.card {
+  opacity: 0;
+  -webkit-transform: translate(0, -40px);
+  -moz-transform: translate(0, -40px);
+  -ms-transform: translate(0, -40px);
+  -o-transform: translate(0, -40px);
+  transform: translate(0, -40px);
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+
+.card.muncul {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+/* Akhir Gallery */
+
+/* Contact */
+#contact {
+  background-color: #d8d8d8;
+}
+/* Akhir Contact */
+
+/* Footer */
+footer {
+  background-color: #505050;
+}
+
+footer p,
+a {
+  font-family: chewyregular;
+  font-size: 20px;
+}
+/* Akhir Footer */
