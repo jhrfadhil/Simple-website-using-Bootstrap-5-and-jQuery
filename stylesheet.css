@@ -55,32 +55,17 @@ nav {
 .pkiri,
 .pkanan {
   opacity: 0;
-  -webkit-transform: translate(-50px, 0);
-  -moz-transform: translate(-50px, 0);
-  -ms-transform: translate(-50px, 0);
-  -o-transform: translate(-50px, 0);
   transform: translate(-50px, 0);
-  -webkit-transition: opacity 0.5s linear;
-  -moz-transition: opacity 0.5s linear;
-  -o-transition: opacity 0.5s linear;
-  transition: opacity 0.5s linear;
+  transition: 1s;
 }
 
-pkanan {
-  -webkit-transform: translate(50px, 0);
-  -moz-transform: translate(50px, 0);
-  -ms-transform: translate(50px, 0);
-  -o-transform: translate(50px, 0);
+.pkanan {
   transform: translate(50px, 0);
 }
 
 .pkiri.pmuncul,
 .pkanan.pmuncul {
   opacity: 1;
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
   transform: translate(0, 0);
 }
 /* Akhir About */
@@ -93,23 +78,12 @@ pkanan {
 
 .card {
   opacity: 0;
-  -webkit-transform: translate(0, -40px);
-  -moz-transform: translate(0, -40px);
-  -ms-transform: translate(0, -40px);
-  -o-transform: translate(0, -40px);
   transform: translate(0, -40px);
-  -webkit-transition: opacity 0.5s linear;
-  -moz-transition: opacity 0.5s linear;
-  -o-transition: opacity 0.5s linear;
-  transition: opacity 0.5s linear;
+  transition: 0.5s;
 }
 
 .card.muncul {
   opacity: 1;
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
   transform: translate(0, 0);
 }
 /* Akhir Gallery */
