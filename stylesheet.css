@@ -99,6 +99,10 @@ footer {
   background-color: #505050;
 }
 
+footer .p-2 {
+  margin: 0;
+}
+
 footer p,
 a {
   font-family: chewyregular;
