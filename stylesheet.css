@@ -52,6 +52,13 @@ nav {
   background-color: #d8d8d8;
 }
 
+.col-md-5 {
+  text-align: justify;
+  /* optional */
+  padding: 30px;
+  margin: 10px;
+}
+
 .pkiri,
 .pkanan {
   opacity: 0;
