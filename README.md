@@ -1,4 +1,4 @@
-# Simple-website-using-Bootstrap-5-and-jQuery
+# Waves Website
 Framework test
 
 Bug is fixed
